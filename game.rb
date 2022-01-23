@@ -10,7 +10,7 @@ def run
 
     if guess.length != 5
       puts "INVALID GUESS. NEEDS TO BE 5 LETTERS"
-      continue
+      next
     end
 
     if evaluate_guess(guess, answer, letters)
